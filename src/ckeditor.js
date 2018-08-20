@@ -33,16 +33,16 @@ InlineEditor.builtinPlugins = [
 InlineEditor.defaultConfig = {
 	toolbar: {
 		items: [
-			'heading',
-			'|',
 			'bold',
             'italic',
             'fontFamily',
             'fontSize',
+			'|',
 			'link',
 			'bulletedList',
 			'numberedList',
 			'blockQuote',
+			'|',
 			'undo',
 			'redo'
 		]
